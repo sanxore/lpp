@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{graphicx,hyperref,ru,url}
+\usepackage{multirow}
 
 % The title of the presentation:
 %  - first a short version which is visible at the bottom of each slide;
@@ -11,7 +12,7 @@
   Analyse de la concurrence du Groupe OCP sur le marché des phosphates et produits dérivés}
 
 % Optional: a subtitle to be dispalyed on the title slide
-\subtitle{}
+\subtitle{\tiny{Soutenance Priliminaire PFE}}
 
 % The author(s) of the presentation:
 %  - again first a short version to be displayed at the bottom;
@@ -56,31 +57,40 @@
   \frametitle{Introduction}
 
   \begin{itemize}
-    \item This is just a short example
-    \item The comments in the \LaTeX\ file are most important
-    \item This is just the result after running pdflatex
-    \item The style is based on the webpage \url{http://www.ru.nl/}
+    \item Presque toutes les décisions prises par un gestionnaire ont besoin d'une prévision.
+    \item Il a également besoin d'évaluer l'effet de ses décisions actuelles sur l'avenir afin que les bonnes décisions soient prises aujourd'hui pour créer une condition souhaitée demain.
+    \item Minimiser les fonds immobilisés dans les stocks, réduire les coûts d'intérêt, maximiser les réserves en devises étrangères, éviter de manquer de stock.
+    \item Augmenter les ventes et améliorer les profits.
   \end{itemize}
 \end{frame}
 
 \section{Contexte Général}
-
 \begin{frame}
-  \frametitle{Background information}
 
-  \begin{block}{Slides with \LaTeX}
-    Beamer offers a lot of functions to create nice slides using \LaTeX.
-  \end{block}
+  \frametitle{Contexte Général}
+\begin{table}
+\centering 
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+  \small{Produit} & \small{Capacité A.} & \small{PdM Internationale} & \small{Position} \\
+  \hline
+  Roche & 28.1 & 37\% & Leader\\
+  MGA & 4.4 & 52\% & Leader\\
+  Fertilisants & 4.35 & 16.5\% & 3e après Chine et USA\\
+  \hline
+  \end{tabular}
+  \end{table} 
+  
+%  \begin{block}{The basis}
+%    This style uses the following default styles:
+%    \begin{itemize}
+%      \item split
+%      \item whale
+%      \item rounded
+%      \item orchid
+%    \end{itemize}
+%  \end{block}
 
-  \begin{block}{The basis}
-    This style uses the following default styles:
-    \begin{itemize}
-      \item split
-      \item whale
-      \item rounded
-      \item orchid
-    \end{itemize}
-  \end{block}
 \end{frame}
 
 \section{Analyse}

@@ -23,6 +23,7 @@
 *-blx.aux
 *-blx.bib
 *.brf
+*.pdf
 *.run.xml
 
 ## Build tool auxiliary files:
