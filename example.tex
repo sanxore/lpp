@@ -118,12 +118,26 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Solution Téchnique}
-  \textbf{La collecte et la préparation de données} représente \textbf{80\%} d'un projet d'analyse de données.\\
-  \begin{itemize}
-    \item Documents cible : Des PDFs contenant des Trades Matrix concernant different produits Phosphaté.
-    \item Données cible. : Les Imports et Exports régionaux de ces différents produits.
-  \end{itemize}
+  \frametitle{Collecte de données}
+  \framesubtitle{\textbf{\textcolor{yellow}{Contrainte}}}
+  \begin{block}{contrainte}
+  	\begin{itemize}
+    		\item Le document ne contient pas que des Trades Matrix.
+    		\item Trade Matrix de quel produit ?
+    		\item Pas évident d'extraire la structure d'une table dans un PDF.
+  	\end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Collecte de données}
+  \framesubtitle{\textbf{\textcolor{yellow}{Méthodologie}}}
+  \begin{block}{Outils}
+  	\begin{itemize}
+    		\item Language : Python, Bash.
+    		\item Packages : PdfTable, RegEx, csv.
+  	\end{itemize}
+  \end{block}
 \end{frame}
 
 \section{Conclusion}
