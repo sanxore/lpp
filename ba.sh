@@ -9,3 +9,4 @@ URL="https://www.sharelatex.com/templates/536e933280bde19571bf9c33/v/1/zip?name=
 wget $URL -O Radboud\ University\ Beamer\ \(version\ 1\).zip
 unzip Radboud\ University\ Beamer\ \(version\ 1\).zip -d .
 rm Radboud\ University\ Beamer\ \(version\ 1\).zip
+wget http://www.maths.dundee.ac.uk/dfg/latex/textpos.sty
